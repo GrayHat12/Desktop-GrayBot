@@ -8,7 +8,9 @@ Else the bot can be launched from 'GrayBot.py'
 Most of the execution part after that is self explanatory.  
   
 ## NOTE : 
-You'll need an GENIUS LYRICS API KEY for using the lyrics feature. You can get it from : https://docs.genius.com/#/resources-h1  
+You'll need an GENIUS LYRICS API KEY for using the lyrics feature. You can get it from :  
+                               https://docs.genius.com/#/resources-h1  
+  
 After aquiring a key -> Open 'lyrics.py' in an editor and modify line 4 by pasting your api key in place of :  
                         '---YOUR GENIUS API KEY HERE---'  
   
