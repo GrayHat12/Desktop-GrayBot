@@ -16,7 +16,9 @@ After aquiring a key -> Open 'lyrics.py' in an editor and modify line 4 by pasti
 You're gonna need a Google Maps Api key for accessing the Maps option..  
 Login to : https://console.cloud.google.com and get your api key.  
 Then move to 'GrayPlot' folder and then 'gmplot.py' and replace all occurences of '----GOOGLE MAPS API KEY HERE--'  
-with your API key.
+with your API key.  
+
+For a complete new experience -> Delete the contents of all '.ghh' files.(Make sure you delete contents and not files)
   
 ## ISSUES :
 If you find any trouble using the bot or if you have any suggestions -> Mail me at 'grayhathacks10@gmail.com'
