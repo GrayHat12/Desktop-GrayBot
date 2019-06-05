@@ -33,9 +33,9 @@ class MainScreen(GridLayout):
         self.but6=Button(text='Lyrics')
         self.but6.bind(on_press=self.runlr)
         self.add_widget(self.but6)
-        #self.but7=Button(text='Maps')
-        #self.but7.bind(on_press=self.runlm)
-        #self.add_widget(self.but7)
+        self.but7=Button(text='Maps')
+        self.but7.bind(on_press=self.runlm)
+        self.add_widget(self.but7)
         
     def runyt(self,instance):
         os.system("start cmd /C python yt.py")
@@ -55,8 +55,8 @@ class MainScreen(GridLayout):
     def runlr(self,instance):
         os.system("start cmd /K python lyrics.py")
     
-    #def runlm(self,instance):
-    #    os.system("start cmd /C python maps.py")
+    def runlm(self,instance):
+        os.system("start cmd /C python maps.py")
     
 
 class MyApp(App):
