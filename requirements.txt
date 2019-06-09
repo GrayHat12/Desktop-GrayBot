@@ -1,0 +1,9 @@
+pafy
+python-vlc
+youtube_dl
+colorama
+requests
+lyricsgenius
+kivy
+kivy.deps.angle
+kivy.deps.gstreamer
